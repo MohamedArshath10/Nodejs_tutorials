@@ -14,7 +14,7 @@ const server = http.createServer((req, res) => {
     }
     else{
         res.writeHead(404, {"content-type": "plain-text"}) // other routes will be considered as 404
-        res.end("404 page not found")
+        res.end("404 page not found") 
     }
 })
 
